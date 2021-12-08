@@ -317,9 +317,9 @@ header .container ul > li > a:hover {
 }
 .landing .container .image img {
     position: relative;
-    width: 428px;
+    width: 410px;
     max-width: 100%;
-    transform: translatey(-7px);
+    transform: translatey(-5px);
 }
 .landing .go-down {
     color: var(--main-color);
