@@ -319,6 +319,7 @@ header .container ul > li > a:hover {
     position: relative;
     width: 428px;
     max-width: 100%;
+    transform: translatey(-7px);
 }
 .landing .go-down {
     color: var(--main-color);
