@@ -36,19 +36,19 @@ a {
 /* Small */
 @media (min-width: 768px) {
     .container {
-      width: 750px;
+    width: 750px;
     }
-  }
+}
   /* Medium */
-  @media (min-width: 992px) {
+@media (min-width: 992px) {
     .container {
-      width: 970px;
+    width: 970px;
     }
-  }
+}
   /* Large */
-  @media (min-width: 1200px) {
+@media (min-width: 1200px) {
     .container {
-      width: 1170px;
+    width: 1170px;
     }
 }
 .main-title {
@@ -281,6 +281,7 @@ header .container ul > li > a:hover {
 }
 .landing .text {
     flex: 1;
+    animation: slidin 3s;
 }
 @media (max-width: 991px) {
     .landing .text {
@@ -859,7 +860,7 @@ header .container ul > li > a:hover {
     }
 }
 .how-it .container .info .box::before {
-   content: "";
+    content: "";
     position: absolute;
     top: 50%;
     left: 50%;
@@ -1590,6 +1591,14 @@ footer .copyright {
     }
     50% {
         background-image: url("../images/discount-background2.jpg")
+    }
+}
+@keyframes slidin {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
     }
 }
 /* End Animation */
